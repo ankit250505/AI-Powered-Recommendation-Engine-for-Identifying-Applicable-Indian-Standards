@@ -1,0 +1,8 @@
+.venv/
+app_data/
+backups/
+model_cache/
+tmp/
+.env
+__pycache__/
+*.pyc

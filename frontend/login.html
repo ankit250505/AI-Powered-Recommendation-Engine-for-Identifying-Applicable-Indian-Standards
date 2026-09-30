@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sign In · Indian Standards Recommendation Engine</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <main class="login-shell">
+      <section class="login-experience" aria-labelledby="loginTitle">
+        <div class="login-intro">
+          <span class="brand-mark large" aria-hidden="true">IS</span>
+          <div>
+            <p class="eyebrow">Indian Standards Finder</p>
+            <h1>Procurement clarity,<br />grounded in standards.</h1>
+            <p>Search specifications, inspect evidence, and capture expert review in a single focused workspace.</p>
+          </div>
+          <div class="login-proof" aria-label="Platform capabilities">
+            <span><strong>250</strong> curated standards</span>
+            <span><strong>3</strong> search modes</span>
+            <span><strong>1</strong> auditable workflow</span>
+          </div>
+        </div>
+        <div class="login-panel">
+          <p class="eyebrow">Secure workspace</p>
+          <h2 id="loginTitle">Welcome back</h2>
+          <p class="login-copy">Sign in with your procurement, reviewer, or administrator account.</p>
+          <form id="loginForm">
+            <label>
+              Username
+              <input id="username" name="username" autocomplete="username" placeholder="Enter username" required autofocus />
+            </label>
+            <label>
+              Password
+              <input id="password" name="password" type="password" autocomplete="current-password" placeholder="Enter password" required />
+            </label>
+            <button class="primary-button" id="loginButton" type="submit">Sign In <span aria-hidden="true">-></span></button>
+            <p class="login-status" id="loginStatus" role="status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="/static/login.js"></script>
+  </body>
+</html>

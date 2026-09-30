@@ -1,0 +1,205 @@
+{"kind":"deck","id":"pr/cuqcb6","name":"Deck"}
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"","type":"master","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"9/30/2026"},{"name":"footer","type":"footer","textPreview":"@SIH Idea submission- Template"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"Title Slide","type":"title","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"subtitle","type":"subtitle","textPreview":"Click to edit Master subtitle style"},{"name":"dateTime","type":"dateTime","textPreview":"9/30/2026"},{"name":"footer","type":"footer","textPreview":"@SIH Idea submission- Template"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout2.xml","name":"Title and Content","type":"obj","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"content placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"9/30/2026"},{"name":"footer","type":"footer","textPreview":"@SIH Idea submission- Template"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout3.xml","name":"Section Header","type":"secHead","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"dateTime","type":"dateTime","textPreview":"9/30/2026"},{"name":"footer","type":"footer","textPreview":"@SIH Idea submission- Template"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout4.xml","name":"Two Content","type":"twoObj","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"content placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"content placeholder 3","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"9/30/2026"},{"name":"footer","type":"footer","textPreview":"@SIH Idea submission- Template"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout5.xml","name":"Comparison","type":"twoTxTwoObj","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"content placeholder 3","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"content placeholder 5","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"9/30/2026"},{"name":"footer","type":"footer","textPreview":"@SIH Idea submission- Template"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout6.xml","name":"Title Only","type":"titleOnly","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"dateTime","type":"dateTime","textPreview":"9/30/2026"},{"name":"footer","type":"footer","textPreview":"@SIH Idea submission- Template"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout7.xml","name":"Blank","type":"blank","placeholders":[{"name":"dateTime","type":"dateTime","textPreview":"9/30/2026"},{"name":"footer","type":"footer","textPreview":"@SIH Idea submission- Template"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout8.xml","name":"Content with Caption","type":"objTx","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"content placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"dateTime","type":"dateTime","textPreview":"9/30/2026"},{"name":"footer","type":"footer","textPreview":"@SIH Idea submission- Template"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout9.xml","name":"Picture with Caption","type":"picTx","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"picture","type":"picture"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"dateTime","type":"dateTime","textPreview":"9/30/2026"},{"name":"footer","type":"footer","textPreview":"@SIH Idea submission- Template"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout10.xml","name":"Title and Vertical Text","type":"vertTx","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"9/30/2026"},{"name":"footer","type":"footer","textPreview":"@SIH Idea submission- Template"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout11.xml","name":"Vertical Title and Text","type":"vertTitleAndTx","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"9/30/2026"},{"name":"footer","type":"footer","textPreview":"@SIH Idea submission- Template"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"TITLE PAGE","textShapes":3}
+{"kind":"shape","id":"sh/43y1gji9","slide":1,"name":"Rectangle 24","bbox":[160,0,960,720]}
+{"kind":"shape","id":"sh/54r2poju","slide":1,"name":"Freeform: Shape 26","bbox":[593.89,89.4,486.99,541.2]}
+{"kind":"textbox","id":"sh/7qp4be9c","slide":1,"name":"Subtitle 3","placeholder":"subtitle","text":"TITLE PAGE","textPreview":"TITLE PAGE","textChars":10,"textLines":1,"bbox":[130.78,68.1,896,184]}
+{"kind":"textbox","id":"sh/fu94fe98","slide":1,"name":"Title 7","placeholder":"title","text":"SMART INDIA HACKATHON 2026","textPreview":"SMART INDIA HACKATHON 2026","textChars":26,"textLines":1,"bbox":[34.78,-55.3,1088,218]}
+{"kind":"textbox","id":"sh/wn6dc7eh","slide":1,"name":"TextBox 9","text":"Problem Statement ID - [PROBLEM STATEMENT ID]\nProblem Statement Title -\nAI-Powered Recommendation Engine for Identifying Applicable Indian Standards for Procurement Specifications\nTheme - [THEME]\nPS Category - Software\nTeam ID - [TEAM ID]\nTeam Name (Registered on portal) - [TEAM NAME]","textPreview":"Problem Statement ID - [PROBLEM STATEMENT ID] | Problem Statement Title - | AI-Powered Recommendation Engine for Identifying Applicable I...","textChars":285,"textLines":7,"bbox":[42,205,650,499.2]}
+{"kind":"image","id":"im/t8jihgzm","slide":1,"name":"Picture 4","bbox":[719.67,180.14,336.33,359.71]}
+{"kind":"image","id":"im/s7a1obih","slide":1,"name":"Picture 1","bbox":[1026.78,0.16,236.2,111.53]}
+{"kind":"notes","id":"nt/y90nupkv","slide":1,"text":""}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"IDEA TITLE","textShapes":18}
+{"kind":"textbox","id":"sh/dkvmpszm","slide":2,"name":"Title 1","placeholder":"title","text":"IDEA TITLE","textPreview":"IDEA TITLE","textChars":10,"textLines":1,"bbox":[19.21,0,1152,120]}
+{"kind":"textbox","id":"sh/x4r21kru","slide":2,"name":"Slide Number Placeholder 5","placeholder":"slideNumber","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/w3i1sfa9","slide":2,"name":"Footer Placeholder 6","placeholder":"footer","text":"@SIH Idea submission- Template","textPreview":"@SIH Idea submission- Template","textChars":30,"textLines":1,"bbox":[488,667.33,336.38,38.33]}
+{"kind":"textbox","id":"sh/ove9o7yd","slide":2,"name":"Oval 9","text":"[TEAM NAME]","textPreview":"[TEAM NAME]","textChars":11,"textLines":1,"bbox":[34.62,26.48,131.43,84.76]}
+{"kind":"textbox","id":"sh/0n650nid","slide":2,"text":"Procurement specifications often combine several technical requirements. Finding potentially applicable Indian Standards is slow, terminology-dependent, and difficult to audit.","textPreview":"Procurement specifications often combine several technical requirements. Finding potentially applicable Indian Standards is slow, termino...","textChars":176,"textLines":1,"bbox":[55,128,1170,62]}
+{"kind":"textbox","id":"sh/1ofmtszy","slide":2,"text":"Procurement\nspecification","textPreview":"Procurement | specification","textChars":25,"textLines":2,"bbox":[52,218,135,76]}
+{"kind":"shape","id":"sh/el4nyd07","slide":2,"bbox":[188,247,11,17]}
+{"kind":"textbox","id":"sh/zmx4rihs","slide":2,"text":"Text / document\nprocessing","textPreview":"Text / document | processing","textChars":26,"textLines":2,"bbox":[199,218,135,76]}
+{"kind":"shape","id":"sh/or6547i9","slide":2,"bbox":[335,247,11,17]}
+{"kind":"textbox","id":"sh/9sf6xczu","slide":2,"text":"Clause\nanalysis","textPreview":"Clause | analysis","textChars":15,"textLines":2,"bbox":[346,218,135,76]}
+{"kind":"shape","id":"sh/jylgjq58","slide":2,"bbox":[482,247,11,17]}
+{"kind":"textbox","id":"sh/ixszalon","slide":2,"text":"Keyword + semantic\nretrieval","textPreview":"Keyword + semantic | retrieval","textChars":28,"textLines":2,"bbox":[493,218,135,76]}
+{"kind":"shape","id":"sh/5k3yl0ne","slide":2,"bbox":[629,247,11,17]}
+{"kind":"textbox","id":"sh/kzuhcv6t","slide":2,"text":"Ranked\nstandards","textPreview":"Ranked | standards","textChars":16,"textLines":2,"bbox":[640,218,135,76]}
+{"kind":"shape","id":"sh/vu1gfq5c","slide":2,"bbox":[776,247,11,17]}
+{"kind":"textbox","id":"sh/atsz6lor","slide":2,"text":"Evidence +\nexplanation","textPreview":"Evidence + | explanation","textChars":22,"textLines":2,"bbox":[787,218,135,76]}
+{"kind":"shape","id":"sh/xwjyh0n2","slide":2,"bbox":[923,247,11,17]}
+{"kind":"textbox","id":"sh/wvah8v6x","slide":2,"text":"Human\nverification","textPreview":"Human | verification","textChars":18,"textLines":2,"bbox":[934,218,135,76]}
+{"kind":"shape","id":"sh/fq50ra5g","slide":2,"bbox":[1070,247,11,17]}
+{"kind":"textbox","id":"sh/upczi54v","slide":2,"text":"PDF / CSV\nreport","textPreview":"PDF / CSV | report","textChars":16,"textLines":2,"bbox":[1081,218,135,76]}
+{"kind":"textbox","id":"sh/qp8fed4r","slide":2,"text":"PROPOSED SOLUTION","textPreview":"PROPOSED SOLUTION","textChars":17,"textLines":1,"bbox":[58,330,540,25]}
+{"kind":"shape","id":"sh/rqhw7ilc","slide":2,"bbox":[58,357,540,2]}
+{"kind":"textbox","id":"sh/srqxgnmx","slide":2,"text":"Accepts typed requirements and TXT, PDF, or DOCX files\nSplits documents into clauses before matching standards\nRanks candidates using lexical and semantic relevance\nReturns evidence for a reviewer before export","textPreview":"Accepts typed requirements and TXT, PDF, or DOCX files | Splits documents into clauses before matching standards | Ranks candidates using...","textChars":210,"textLines":4,"bbox":[58,365,550,190]}
+{"kind":"textbox","id":"sh/dsjy983i","slide":2,"text":"INNOVATION AND UNIQUENESS","textPreview":"INNOVATION AND UNIQUENESS","textChars":25,"textLines":1,"bbox":[660,330,560,25]}
+{"kind":"shape","id":"sh/il8fat4v","slide":2,"bbox":[660,357,560,2]}
+{"kind":"textbox","id":"sh/3mhw3yl0","slide":2,"text":"Clause-level procurement analysis across multiple requirements\nKeyword, local hybrid, and transformer embedding retrieval\nEvidence-backed results with verification status\nHuman review, feedback, audit history, and quality monitoring","textPreview":"Clause-level procurement analysis across multiple requirements | Keyword, local hybrid, and transformer embedding retrieval | Evidence-ba...","textChars":232,"textLines":4,"bbox":[660,365,560,190]}
+{"kind":"textbox","id":"sh/4nqxc3ml","slide":2,"text":"Decision support for technical review. The system does not make a legal determination of applicability.","textPreview":"Decision support for technical review. The system does not make a legal determination of applicability.","textChars":103,"textLines":1,"bbox":[250,585,780,43]}
+{"kind":"image","id":"im/gfaxkbqh","slide":2,"name":"Picture 10","bbox":[1026.78,0.16,236.2,111.53]}
+{"kind":"notes","id":"nt/hwbqtkby","slide":2,"text":"Describe the system as semantic retrieval and recommendation, not a generative chatbot. Emphasize human verification and decision support."}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"TECHNICAL APPROACH","textShapes":19}
+{"kind":"textbox","id":"sh/j6dgf6tk","slide":3,"name":"Title 1","placeholder":"title","text":"TECHNICAL APPROACH","textPreview":"TECHNICAL APPROACH","textChars":18,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/obq90bml","slide":3,"name":"Slide Number Placeholder 5","placeholder":"slideNumber","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/pcjqtg36","slide":3,"name":"Footer Placeholder 6","placeholder":"footer","text":"@SIH Idea submission- Template","textPreview":"@SIH Idea submission- Template","textChars":30,"textLines":1,"bbox":[488,667.33,336.38,38.33]}
+{"kind":"textbox","id":"sh/m1c3mlsn","slide":3,"name":"Oval 10","text":"[TEAM NAME]","textPreview":"[TEAM NAME]","textChars":11,"textLines":1,"bbox":[34.62,26.48,131.43,84.76]}
+{"kind":"textbox","id":"sh/zy1kzedw","slide":3,"text":"USER\nProcurement / reviewer / admin","textPreview":"USER | Procurement / reviewer / admin","textChars":35,"textLines":2,"bbox":[52,132,205,72]}
+{"kind":"shape","id":"sh/exsjq9cb","slide":3,"bbox":[261,158,20,18]}
+{"kind":"textbox","id":"sh/9o325ovy","slide":3,"text":"WEB FRONTEND\nHTML, CSS, JavaScript","textPreview":"WEB FRONTEND | HTML, CSS, JavaScript","textChars":34,"textLines":2,"bbox":[289,132,205,72]}
+{"kind":"shape","id":"sh/onulwjut","slide":3,"bbox":[498,158,20,18]}
+{"kind":"textbox","id":"sh/nmlk3ed8","slide":3,"text":"FASTAPI BACKEND\nAuthentication + API","textPreview":"FASTAPI BACKEND | Authentication + API","textChars":36,"textLines":2,"bbox":[526,132,205,72]}
+{"kind":"shape","id":"sh/mlc3u9cn","slide":3,"bbox":[735,158,20,18]}
+{"kind":"textbox","id":"sh/psz2tkvu","slide":3,"text":"DOCUMENT PROCESSING\nTXT, PDF, DOCX","textPreview":"DOCUMENT PROCESSING | TXT, PDF, DOCX","textChars":34,"textLines":2,"bbox":[763,132,205,72]}
+{"kind":"shape","id":"sh/4rq1kfu9","slide":3,"bbox":[972,158,20,18]}
+{"kind":"textbox","id":"sh/gnetwj6h","slide":3,"text":"CLAUSE ANALYSIS\nSplit + aggregate evidence","textPreview":"CLAUSE ANALYSIS | Split + aggregate evidence","textChars":42,"textLines":2,"bbox":[1000,132,205,72]}
+{"kind":"shape","id":"sh/honupo72","slide":3,"bbox":[623,211,22,22]}
+{"kind":"shape","id":"sh/ulwbu9ob","slide":3,"bbox":[92,245,1096,174]}
+{"kind":"textbox","id":"sh/fm5cnepw","slide":3,"text":"RECOMMENDATION ENGINE","textPreview":"RECOMMENDATION ENGINE","textChars":21,"textLines":1,"bbox":[110,255,1060,31]}
+{"kind":"textbox","id":"sh/4byt036d","slide":3,"text":"KEYWORD RETRIEVAL\nWeighted title, keywords, related terms, examples","textPreview":"KEYWORD RETRIEVAL | Weighted title, keywords, related terms, examples","textChars":67,"textLines":2,"bbox":[120,302,320,91]}
+{"kind":"textbox","id":"sh/pc7ut87y","slide":3,"text":"HYBRID RETRIEVAL\nKeyword score + local similarity features","textPreview":"HYBRID RETRIEVAL | Keyword score + local similarity features","textChars":58,"textLines":2,"bbox":[470,302,320,91]}
+{"kind":"textbox","id":"sh/2pwbyton","slide":3,"text":"TRANSFORMER EMBEDDINGS\nall-MiniLM-L6-v2 semantic similarity","textPreview":"TRANSFORMER EMBEDDINGS | all-MiniLM-L6-v2 semantic similarity","textChars":59,"textLines":2,"bbox":[820,302,320,91]}
+{"kind":"shape","id":"sh/3q5cryps","slide":3,"bbox":[623,425,22,22]}
+{"kind":"textbox","id":"sh/cfyt436p","slide":3,"text":"RANKING + EVIDENCE","textPreview":"RANKING + EVIDENCE","textChars":18,"textLines":1,"bbox":[130,463,310,62]}
+{"kind":"shape","id":"sh/dg7ux87a","slide":3,"bbox":[450,484,22,18]}
+{"kind":"textbox","id":"sh/natwn29c","slide":3,"text":"HUMAN REVIEW / VERIFICATION","textPreview":"HUMAN REVIEW / VERIFICATION","textChars":27,"textLines":1,"bbox":[485,463,310,62]}
+{"kind":"shape","id":"sh/m90fux8r","slide":3,"bbox":[805,484,22,18]}
+{"kind":"textbox","id":"sh/9cbepcri","slide":3,"text":"SQLITE + PDF / CSV REPORTS","textPreview":"SQLITE + PDF / CSV REPORTS","textChars":26,"textLines":1,"bbox":[840,463,310,62]}
+{"kind":"textbox","id":"sh/ob2xw7qx","slide":3,"text":"IMPLEMENTED STACK","textPreview":"IMPLEMENTED STACK","textChars":17,"textLines":1,"bbox":[55,565,165,26]}
+{"kind":"textbox","id":"sh/z69wj290","slide":3,"text":"Python  |  FastAPI  |  HTML / CSS / JavaScript  |  SQLite  |  Sentence Transformers  |  Docker Compose  |  Automated tests  |  JSON logs + metrics","textPreview":"Python  |  FastAPI  |  HTML / CSS / JavaScript  |  SQLite  |  Sentence Transformers  |  Docker Compose  |  Automated tests  |  JSON logs ...","textChars":146,"textLines":1,"bbox":[220,556,1005,45]}
+{"kind":"textbox","id":"sh/e50vqx8v","slide":3,"text":"INPUT  >  EXTRACT  >  ANALYSE  >  RETRIEVE  >  RANK  >  EXPLAIN  >  VERIFY  >  REPORT","textPreview":"INPUT  >  EXTRACT  >  ANALYSE  >  RETRIEVE  >  RANK  >  EXPLAIN  >  VERIFY  >  REPORT","textChars":85,"textLines":1,"bbox":[210,612,860,29]}
+{"kind":"image","id":"im/sri1wvq9","slide":3,"name":"Picture 11","bbox":[1026.78,0.16,236.2,111.53]}
+{"kind":"notes","id":"nt/ofy9wn61","slide":3,"text":"Hybrid mode is the measured default. Only embedding mode uses all-MiniLM-L6-v2; hybrid uses keyword scoring plus local similarity features."}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"FEASIBILITY AND VIABILITY","textShapes":19}
+{"kind":"textbox","id":"sh/ud8fyt4z","slide":4,"name":"Title 1","placeholder":"title","text":"FEASIBILITY AND VIABILITY","textPreview":"FEASIBILITY AND VIABILITY","textChars":25,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/doj29oba","slide":4,"name":"Slide Number Placeholder 5","placeholder":"slideNumber","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/sna103ap","slide":4,"name":"Footer Placeholder 6","placeholder":"footer","text":"@SIH Idea submission- Template","textPreview":"@SIH Idea submission- Template","textChars":30,"textLines":1,"bbox":[488,667.33,336.38,38.33]}
+{"kind":"textbox","id":"sh/i94r6xgz","slide":4,"name":"Oval 11","text":"[TEAM NAME]","textPreview":"[TEAM NAME]","textChars":11,"textLines":1,"bbox":[34.62,26.48,131.43,84.76]}
+{"kind":"textbox","id":"sh/6h8v6d07","slide":4,"text":"CONTROLLED / SYNTHETIC HELD-OUT EVALUATION RESULTS","textPreview":"CONTROLLED / SYNTHETIC HELD-OUT EVALUATION RESULTS","textChars":50,"textLines":1,"bbox":[54,126,350,28]}
+{"kind":"shape","id":"sh/rihwfy1s","slide":4,"bbox":[420,119,170,70]}
+{"kind":"textbox","id":"sh/4fqd43i1","slide":4,"text":"91.5%","textPreview":"91.5%","textChars":5,"textLines":1,"bbox":[425,126,160,30]}
+{"kind":"textbox","id":"sh/5gzed8jm","slide":4,"text":"Top-1 accuracy","textPreview":"Top-1 accuracy","textChars":14,"textLines":1,"bbox":[427,158,156,23]}
+{"kind":"shape","id":"sh/id8v2t0b","slide":4,"bbox":[608,119,170,70]}
+{"kind":"textbox","id":"sh/jehwby1g","slide":4,"text":"97.3%","textPreview":"97.3%","textChars":5,"textLines":1,"bbox":[613,126,160,30]}
+{"kind":"textbox","id":"sh/wr6d0ji5","slide":4,"text":"Top-5 accuracy","textPreview":"Top-5 accuracy","textChars":14,"textLines":1,"bbox":[615,158,156,23]}
+{"kind":"shape","id":"sh/hsze9ojq","slide":4,"bbox":[796,119,180,70]}
+{"kind":"textbox","id":"sh/x8rudkbe","slide":4,"text":"0.943","textPreview":"0.943","textChars":5,"textLines":1,"bbox":[801,126,170,30]}
+{"kind":"textbox","id":"sh/c7yt4fut","slide":4,"text":"Mean reciprocal rank","textPreview":"Mean reciprocal rank","textChars":20,"textLines":1,"bbox":[803,158,166,23]}
+{"kind":"shape","id":"sh/b6pcbat8","slide":4,"bbox":[994,119,230,70]}
+{"kind":"textbox","id":"sh/algb25cn","slide":4,"text":"35","textPreview":"35","textChars":2,"textLines":1,"bbox":[999,126,220,30]}
+{"kind":"textbox","id":"sh/pk7u90bi","slide":4,"text":"Automated tests passing","textPreview":"Automated tests passing","textChars":23,"textLines":1,"bbox":[1001,158,216,23]}
+{"kind":"shape","id":"sh/ojyt0vux","slide":4,"bbox":[48,220,382,405]}
+{"kind":"textbox","id":"sh/nipc7atc","slide":4,"text":"CURRENT IMPLEMENTATION","textPreview":"CURRENT IMPLEMENTATION","textChars":22,"textLines":1,"bbox":[64,237,350,38]}
+{"kind":"shape","id":"sh/2hgby5cr","slide":4,"bbox":[68,281,342,2]}
+{"kind":"textbox","id":"sh/9gbul4bm","slide":4,"text":"Working FastAPI web prototype\nText and multi-format document input\nThree retrieval strategies\nSQLite persistence and role workflows\nAutomated tests and evaluation pipeline\nDocker, health, logging, metrics, backups","textPreview":"Working FastAPI web prototype | Text and multi-format document input | Three retrieval strategies | SQLite persistence and role workflows...","textChars":213,"textLines":6,"bbox":[70,300,338,298]}
+{"kind":"shape","id":"sh/8fidczu1","slide":4,"bbox":[449,220,382,405]}
+{"kind":"textbox","id":"sh/qlcr61sj","slide":4,"text":"CHALLENGES AND RISKS","textPreview":"CHALLENGES AND RISKS","textChars":20,"textLines":1,"bbox":[465,237,350,38]}
+{"kind":"shape","id":"sh/rml8f694","slide":4,"bbox":[469,281,342,2]}
+{"kind":"textbox","id":"sh/snu98bap","slide":4,"text":"Catalogue still needs authoritative verification\nReal specifications vary in structure and vocabulary\nAmbiguous domain terminology can create false positives\nStandards, revisions, and mandates change over time\nSynthetic evaluation does not prove field performance\nProduction scale requires stronger infrastructure","textPreview":"Catalogue still needs authoritative verification | Real specifications vary in structure and vocabulary | Ambiguous domain terminology ca...","textChars":313,"textLines":6,"bbox":[471,300,338,298]}
+{"kind":"shape","id":"sh/do3q1wra","slide":4,"bbox":[850,220,382,405]}
+{"kind":"textbox","id":"sh/ihcr2hsn","slide":4,"text":"MITIGATION AND NEXT STEPS","textPreview":"MITIGATION AND NEXT STEPS","textChars":25,"textLines":1,"bbox":[866,237,350,38]}
+{"kind":"shape","id":"sh/3il8bm9s","slide":4,"bbox":[870,281,342,2]}
+{"kind":"textbox","id":"sh/4ju94rad","slide":4,"text":"Human review before procurement decisions\nEvidence, source status, and audit history\nFeedback collection and continuous evaluation\nPeriodic BIS and government source updates\nValidation on genuine procurement documents\nHTTPS, off-host backups, and monitored deployment","textPreview":"Human review before procurement decisions | Evidence, source status, and audit history | Feedback collection and continuous evaluation | ...","textChars":267,"textLines":6,"bbox":[872,300,338,298]}
+{"kind":"image","id":"im/0jex4jmp","slide":4,"name":"Picture 10","bbox":[1026.78,0.16,236.2,111.53]}
+{"kind":"notes","id":"nt/jyx0ra1s","slide":4,"text":"Metrics shown are controlled/synthetic held-out evaluation results from 375 test queries. They do not represent general real-world tender accuracy."}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"IMPACT AND BENEFITS","textShapes":30}
+{"kind":"textbox","id":"sh/y1g7ylcj","slide":5,"name":"Title 1","placeholder":"title","text":"IMPACT AND BENEFITS","textPreview":"IMPACT AND BENEFITS","textChars":19,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/l4bupwny","slide":5,"name":"Slide Number Placeholder 5","placeholder":"slideNumber","text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/032tgr6d","slide":5,"name":"Footer Placeholder 6","placeholder":"footer","text":"@SIH Idea submission- Template","textPreview":"@SIH Idea submission- Template","textChars":30,"textLines":1,"bbox":[488,667.33,336.38,38.33]}
+{"kind":"textbox","id":"sh/ahkvi1cb","slide":5,"name":"Oval 11","text":"[TEAM NAME]","textPreview":"[TEAM NAME]","textChars":11,"textLines":1,"bbox":[34.62,26.48,131.43,84.76]}
+{"kind":"textbox","id":"sh/u5s3qdcb","slide":5,"text":"TARGET USERS","textPreview":"TARGET USERS","textChars":12,"textLines":1,"bbox":[54,128,120,26]}
+{"kind":"textbox","id":"sh/v614zitg","slide":5,"text":"Procurement teams","textPreview":"Procurement teams","textChars":17,"textLines":1,"bbox":[174,121,160,40]}
+{"kind":"textbox","id":"sh/4ba5wnud","slide":5,"text":"Government departments","textPreview":"Government departments","textChars":22,"textLines":1,"bbox":[347,121,160,40]}
+{"kind":"textbox","id":"sh/5wjm5sby","slide":5,"text":"Reviewers","textPreview":"Reviewers","textChars":9,"textLines":1,"bbox":[520,121,160,40]}
+{"kind":"textbox","id":"sh/i9s3uxc7","slide":5,"text":"Compliance teams","textPreview":"Compliance teams","textChars":16,"textLines":1,"bbox":[693,121,160,40]}
+{"kind":"textbox","id":"sh/3a1432ts","slide":5,"text":"Technical evaluators","textPreview":"Technical evaluators","textChars":20,"textLines":1,"bbox":[866,121,160,40]}
+{"kind":"textbox","id":"sh/szu507a9","slide":5,"text":"Specification authors","textPreview":"Specification authors","textChars":21,"textLines":1,"bbox":[1039,121,160,40]}
+{"kind":"textbox","id":"sh/d03m9cbu","slide":5,"text":"CURRENT MANUAL PROCESS","textPreview":"CURRENT MANUAL PROCESS","textChars":22,"textLines":1,"bbox":[62,191,530,25]}
+{"kind":"shape","id":"sh/1kfux8zm","slide":5,"bbox":[62,218,530,2]}
+{"kind":"textbox","id":"sh/0j6d43yh","slide":5,"text":"PROPOSED WORKFLOW","textPreview":"PROPOSED WORKFLOW","textChars":17,"textLines":1,"bbox":[688,191,530,25]}
+{"kind":"shape","id":"sh/fixcvyhw","slide":5,"bbox":[688,218,530,2]}
+{"kind":"textbox","id":"sh/ehov2tgb","slide":5,"text":"Specification","textPreview":"Specification","textChars":13,"textLines":1,"bbox":[63,235,96,84]}
+{"kind":"shape","id":"sh/p8ze1szy","slide":5,"bbox":[160,268,10,16]}
+{"kind":"textbox","id":"sh/o7qd8nyd","slide":5,"text":"Manual searching","textPreview":"Manual searching","textChars":16,"textLines":1,"bbox":[170,235,96,84]}
+{"kind":"shape","id":"sh/n6hczihs","slide":5,"bbox":[267,268,10,16]}
+{"kind":"textbox","id":"sh/25ov6dg7","slide":5,"text":"Technical interpretation","textPreview":"Technical interpretation","textChars":24,"textLines":1,"bbox":[277,235,96,84]}
+{"kind":"shape","id":"sh/5cvupozu","slide":5,"bbox":[374,268,10,16]}
+{"kind":"textbox","id":"sh/4bmdwji9","slide":5,"text":"Standards verification","textPreview":"Standards verification","textChars":22,"textLines":1,"bbox":[384,235,96,84]}
+{"kind":"shape","id":"sh/uhkr6pwr","slide":5,"bbox":[481,268,10,16]}
+{"kind":"textbox","id":"sh/vitszuxc","slide":5,"text":"Documentation","textPreview":"Documentation","textChars":13,"textLines":1,"bbox":[491,235,96,84]}
+{"kind":"textbox","id":"sh/gj29szex","slide":5,"text":"Specification","textPreview":"Specification","textChars":13,"textLines":1,"bbox":[688,235,96,84]}
+{"kind":"shape","id":"sh/hkba14fi","slide":5,"bbox":[785,268,10,16]}
+{"kind":"textbox","id":"sh/ilkbu9w3","slide":5,"text":"Clause analysis","textPreview":"Clause analysis","textChars":15,"textLines":1,"bbox":[795,235,96,84]}
+{"kind":"shape","id":"sh/3mds3uxo","slide":5,"bbox":[892,268,10,16]}
+{"kind":"textbox","id":"sh/4nmtwze9","slide":5,"text":"Ranked standards","textPreview":"Ranked standards","textChars":16,"textLines":1,"bbox":[902,235,96,84]}
+{"kind":"shape","id":"sh/5ova54fe","slide":5,"bbox":[999,268,10,16]}
+{"kind":"textbox","id":"sh/yp0ry5gz","slide":5,"text":"Evidence + human verification","textPreview":"Evidence + human verification","textChars":29,"textLines":1,"bbox":[1009,235,96,84]}
+{"kind":"shape","id":"sh/jq9srax4","slide":5,"bbox":[1106,268,10,16]}
+{"kind":"textbox","id":"sh/zm18v6p8","slide":5,"text":"PDF / CSV report","textPreview":"PDF / CSV report","textChars":16,"textLines":1,"bbox":[1116,235,96,84]}
+{"kind":"shape","id":"sh/yls7m18n","slide":5,"bbox":[62,365,350,240]}
+{"kind":"textbox","id":"sh/lojqxw7y","slide":5,"text":"SOCIAL / GOVERNANCE","textPreview":"SOCIAL / GOVERNANCE","textChars":19,"textLines":1,"bbox":[77,383,320,34]}
+{"kind":"textbox","id":"sh/0napobqt","slide":5,"text":"More consistent standards discovery\nTraceable evidence and decisions\nRecommendations remain human-verifiable","textPreview":"More consistent standards discovery | Traceable evidence and decisions | Recommendations remain human-verifiable","textChars":108,"textLines":3,"bbox":[87,438,300,140]}
+{"kind":"shape","id":"sh/na18z6p4","slide":5,"bbox":[465,365,350,240]}
+{"kind":"textbox","id":"sh/m9s7q18j","slide":5,"text":"ECONOMIC / OPERATIONAL","textPreview":"ECONOMIC / OPERATIONAL","textChars":22,"textLines":1,"bbox":[480,383,320,34]}
+{"kind":"textbox","id":"sh/9c3q1g7a","slide":5,"text":"Faster initial standards discovery\nLess repetitive manual searching\nStructured review and report workflow","textPreview":"Faster initial standards discovery | Less repetitive manual searching | Structured review and report workflow","textChars":105,"textLines":3,"bbox":[490,438,300,140]}
+{"kind":"shape","id":"sh/8bupsbqp","slide":5,"bbox":[868,365,350,240]}
+{"kind":"textbox","id":"sh/vel83qpg","slide":5,"text":"TECHNICAL","textPreview":"TECHNICAL","textChars":9,"textLines":1,"bbox":[883,383,320,34]}
+{"kind":"textbox","id":"sh/adc7ul8v","slide":5,"text":"Semantic and lexical retrieval\nClause-level explainable evidence\nExtensible catalogue with audit history","textPreview":"Semantic and lexical retrieval | Clause-level explainable evidence | Extensible catalogue with audit history","textChars":104,"textLines":3,"bbox":[893,438,300,140]}
+{"kind":"textbox","id":"sh/sjepkvmt","slide":5,"text":"Expected benefit: stronger decision support and traceability. Compliance and savings are not guaranteed.","textPreview":"Expected benefit: stronger decision support and traceability. Compliance and savings are not guaranteed.","textChars":104,"textLines":1,"bbox":[226,616,828,27]}
+{"kind":"image","id":"im/4vqts3ed","slide":5,"name":"Picture 10","bbox":[1026.78,0.16,236.2,111.53]}
+{"kind":"notes","id":"nt/i107q5of","slide":5,"text":""}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"RESEARCH AND REFERENCES","textShapes":29}
+{"kind":"textbox","id":"sh/1kj2p0ve","slide":6,"name":"Title 1","placeholder":"title","text":"RESEARCH AND REFERENCES","textPreview":"RESEARCH AND REFERENCES","textChars":23,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/ml07i9sv","slide":6,"name":"Slide Number Placeholder 5","placeholder":"slideNumber","text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/7m98ru9g","slide":6,"name":"Footer Placeholder 6","placeholder":"footer","text":"@SIH Idea submission- Template","textPreview":"@SIH Idea submission- Template","textChars":30,"textLines":1,"bbox":[488,667.33,336.38,38.33]}
+{"kind":"textbox","id":"sh/pc76hkr2","slide":6,"name":"Oval 8","text":"[TEAM NAME]","textPreview":"[TEAM NAME]","textChars":11,"textLines":1,"bbox":[34.62,26.48,131.43,84.76]}
+{"kind":"shape","id":"sh/xsnuxoji","slide":6,"bbox":[55,132,570,420]}
+{"kind":"textbox","id":"sh/wred4j2x","slide":6,"text":"EXTERNAL REFERENCES","textPreview":"EXTERNAL REFERENCES","textChars":19,"textLines":1,"bbox":[78,151,524,35]}
+{"kind":"shape","id":"sh/nmlcre1g","slide":6,"bbox":[82,194,516,2]}
+{"kind":"textbox","id":"sh/mlcby9kv","slide":6,"text":"Bureau of Indian Standards","textPreview":"Bureau of Indian Standards","textChars":26,"textLines":1,"bbox":[88,211,320,24]}
+{"kind":"textbox","id":"sh/9onutojm","slide":6,"text":"bis.gov.in/know-your-standard","textPreview":"bis.gov.in/know-your-standard","textChars":29,"textLines":1,"bbox":[405,211,190,24]}
+{"kind":"shape","id":"sh/oned0j21","slide":6,"bbox":[90,246,500,1]}
+{"kind":"textbox","id":"sh/7ipc3i1k","slide":6,"text":"Sentence Transformers and all-MiniLM-L6-v2","textPreview":"Sentence Transformers and all-MiniLM-L6-v2","textChars":42,"textLines":1,"bbox":[88,263,320,24]}
+{"kind":"textbox","id":"sh/6hgvadkf","slide":6,"text":"sbert.net/docs","textPreview":"sbert.net/docs","textChars":14,"textLines":1,"bbox":[405,263,190,24]}
+{"kind":"shape","id":"sh/2d0f2h4n","slide":6,"bbox":[90,298,500,1]}
+{"kind":"textbox","id":"sh/3etgv2ls","slide":6,"text":"FastAPI documentation","textPreview":"FastAPI documentation","textChars":21,"textLines":1,"bbox":[88,315,320,24]}
+{"kind":"textbox","id":"sh/4f2x47md","slide":6,"text":"fastapi.tiangolo.com","textPreview":"fastapi.tiangolo.com","textChars":20,"textLines":1,"bbox":[405,315,190,24]}
+{"kind":"shape","id":"sh/pgbyxc3y","slide":6,"bbox":[90,350,500,1]}
+{"kind":"textbox","id":"sh/qhkf6h4j","slide":6,"text":"Python documentation","textPreview":"Python documentation","textChars":20,"textLines":1,"bbox":[88,367,320,24]}
+{"kind":"textbox","id":"sh/ritgzml4","slide":6,"text":"docs.python.org/3","textPreview":"docs.python.org/3","textChars":17,"textLines":1,"bbox":[405,367,190,24]}
+{"kind":"shape","id":"sh/cj2x8rmp","slide":6,"bbox":[90,402,500,1]}
+{"kind":"textbox","id":"sh/dkby1w3a","slide":6,"text":"SQLite documentation","textPreview":"SQLite documentation","textChars":20,"textLines":1,"bbox":[88,419,320,24]}
+{"kind":"textbox","id":"sh/6lgfux4f","slide":6,"text":"sqlite.org/docs.html","textPreview":"sqlite.org/docs.html","textChars":20,"textLines":1,"bbox":[405,419,190,24]}
+{"kind":"shape","id":"sh/7m9wnil0","slide":6,"bbox":[90,454,500,1]}
+{"kind":"textbox","id":"sh/90fit0ni","slide":6,"text":"Docker documentation","textPreview":"Docker documentation","textChars":20,"textLines":1,"bbox":[88,471,320,24]}
+{"kind":"textbox","id":"sh/oz610v6x","slide":6,"text":"docs.docker.com","textPreview":"docs.docker.com","textChars":15,"textLines":1,"bbox":[405,471,190,24]}
+{"kind":"shape","id":"sh/nex0rq5c","slide":6,"bbox":[655,132,570,420]}
+{"kind":"textbox","id":"sh/mdojylor","slide":6,"text":"PROJECT RESEARCH / EVALUATION","textPreview":"PROJECT RESEARCH / EVALUATION","textChars":29,"textLines":1,"bbox":[678,151,524,35]}
+{"kind":"shape","id":"sh/x4zix0ne","slide":6,"bbox":[682,194,516,2]}
+{"kind":"textbox","id":"sh/w3614vmt","slide":6,"text":"250-record Indian Standards seed catalogue\n3,750 synthetic / controlled procurement-query examples\nFixed train, validation, and held-out test splits\nControlled held-out retrieval evaluation\n35-test automated prototype suite\nVerification queue, audit history, and reviewer labels","textPreview":"250-record Indian Standards seed catalogue | 3,750 synthetic / controlled procurement-query examples | Fixed train, validation, and held-...","textChars":278,"textLines":6,"bbox":[690,220,495,275]}
+{"kind":"textbox","id":"sh/b2x0vq58","slide":6,"text":"Scope disclosure","textPreview":"Scope disclosure","textChars":16,"textLines":1,"bbox":[690,493,135,28]}
+{"kind":"textbox","id":"sh/a1oj2lo3","slide":6,"text":"The catalogue is not fully officially verified. Controlled metrics do not represent general real-world tender accuracy.","textPreview":"The catalogue is not fully officially verified. Controlled metrics do not represent general real-world tender accuracy.","textChars":119,"textLines":1,"bbox":[825,486,360,48]}
+{"kind":"textbox","id":"sh/d8vilgna","slide":6,"text":"Controlled / synthetic held-out results","textPreview":"Controlled / synthetic held-out results","textChars":39,"textLines":1,"bbox":[112,579,260,45]}
+{"kind":"shape","id":"sh/c7mhsb6p","slide":6,"bbox":[390,566,150,70]}
+{"kind":"textbox","id":"sh/g3al0j6d","slide":6,"text":"91.5%","textPreview":"91.5%","textChars":5,"textLines":1,"bbox":[395,573,140,30]}
+{"kind":"textbox","id":"sh/ho3m9o7y","slide":6,"text":"Top-1","textPreview":"Top-1","textChars":5,"textLines":1,"bbox":[397,605,136,23]}
+{"kind":"shape","id":"sh/u1s3y987","slide":6,"bbox":[560,566,150,70]}
+{"kind":"textbox","id":"sh/f2147eps","slide":6,"text":"97.3%","textPreview":"97.3%","textChars":5,"textLines":1,"bbox":[565,573,140,30]}
+{"kind":"textbox","id":"sh/szalwzq1","slide":6,"text":"Top-5","textPreview":"Top-5","textChars":5,"textLines":1,"bbox":[567,605,136,23]}
+{"kind":"shape","id":"sh/t0jm547m","slide":6,"bbox":[730,566,150,70]}
+{"kind":"textbox","id":"sh/6xs3up8b","slide":6,"text":"0.943","textPreview":"0.943","textChars":5,"textLines":1,"bbox":[735,573,140,30]}
+{"kind":"textbox","id":"sh/7y1k3upg","slide":6,"text":"MRR","textPreview":"MRR","textChars":3,"textLines":1,"bbox":[737,605,136,23]}
+{"kind":"textbox","id":"sh/kvqlszq5","slide":6,"text":"Human review remains mandatory","textPreview":"Human review remains mandatory","textChars":30,"textLines":1,"bbox":[900,579,270,45]}
+{"kind":"image","id":"im/k7atcrqh","slide":6,"name":"Picture 11","bbox":[1026.78,0.16,236.2,111.53]}
+{"kind":"notes","id":"nt/x8f69ofe","slide":6,"text":"External references:\nhttps://www.bis.gov.in/know-your-standard/?lang=en\nhttps://www.sbert.net/docs/sentence_transformer/pretrained_models.html\nhttps://fastapi.tiangolo.com/\nhttps://docs.python.org/3/\nhttps://www.sqlite.org/docs.html\nhttps://docs.docker.com/\nProject evidence: data/README.md, data/retrieval_quality.json, tests/, PROJECT_CONTEXT.md"}

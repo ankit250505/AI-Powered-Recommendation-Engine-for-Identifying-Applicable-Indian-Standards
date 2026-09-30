@@ -1,0 +1,36 @@
+services:
+  standards-app:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "${APP_PORT:-8000}:8000"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      APP_ENV: "${APP_ENV:-production}"
+      DATABASE_PATH: /app/app_data/recommendations.db
+      SESSION_COOKIE_SECURE: "${SESSION_COOKIE_SECURE:-true}"
+      TRUSTED_HOSTS: "${TRUSTED_HOSTS:-localhost,127.0.0.1}"
+      EMBEDDING_LOCAL_ONLY: "${EMBEDDING_LOCAL_ONLY:-false}"
+      HF_HOME: /app/model_cache
+    volumes:
+      - standards_data:/app/app_data
+      - standards_models:/app/model_cache
+      - standards_backups:/app/backups
+
+  backup:
+    build: .
+    profiles: ["maintenance"]
+    environment:
+      APP_ENV: production
+      DATABASE_PATH: /app/app_data/recommendations.db
+    command: ["python", "scripts/backup_database.py", "--output", "/app/backups", "--keep", "14"]
+    volumes:
+      - standards_data:/app/app_data
+      - standards_backups:/app/backups
+
+volumes:
+  standards_data:
+  standards_models:
+  standards_backups:

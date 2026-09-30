@@ -1,0 +1,1133 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/gnmp4jqx",
+    "id": "gnmp4jqx",
+    "slide": 7,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "Title and Content",
+    "layoutType": "obj",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4F81BD",
+      "accent2": "#C0504D",
+      "accent3": "#9BBB59",
+      "accent4": "#8064A2",
+      "accent5": "#4BACC6",
+      "accent6": "#F79646",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#1F497D",
+      "lt2": "#EEECE1",
+      "hlink": "#0000FF",
+      "folHlink": "#800080"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "TradeGothic"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "Title and Content",
+      "type": "obj",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/2",
+          "id": "2",
+          "name": "Title 1",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/3",
+          "id": "3",
+          "name": "Content Placeholder 2",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "Click to edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/4",
+          "id": "4",
+          "name": "Date Placeholder 3",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "9/30/2026",
+          "textPreview": "9/30/2026",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "9/30/2026",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "9/30/2026"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/5",
+          "id": "5",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "@SIH Idea submission- Template",
+          "textPreview": "@SIH Idea submission- Template",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "@SIH Idea submission- Template",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "@SIH Idea submission- Template"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/6",
+          "id": "6",
+          "name": "Slide Number Placeholder 5",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/1026",
+          "id": "1026",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            64,
+            -5,
+            1152,
+            120
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/1027",
+          "id": "1027",
+          "name": "Text Placeholder 2",
+          "bbox": [
+            64,
+            115,
+            1152,
+            528.17
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/4",
+          "id": "4",
+          "name": "Date Placeholder 3",
+          "bbox": [
+            64,
+            667.33,
+            298.67,
+            38.33
+          ],
+          "geometry": "rect",
+          "text": "9/30/2026",
+          "textPreview": "9/30/2026",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "9/30/2026",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "9/30/2026"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/5",
+          "id": "5",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            437.33,
+            667.33,
+            405.33,
+            38.33
+          ],
+          "geometry": "rect",
+          "text": "@SIH Idea submission- Template",
+          "textPreview": "@SIH Idea submission- Template",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "@SIH Idea submission- Template",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "@SIH Idea submission- Template"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/6",
+          "id": "6",
+          "name": "Slide Number Placeholder 5",
+          "bbox": [
+            917.33,
+            667.33,
+            298.67,
+            38.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kzmdova1",
+      "id": "6",
+      "name": "Slide Number Placeholder 5",
+      "bbox": [
+        917.33,
+        667.33,
+        298.67,
+        38.33
+      ],
+      "text": "7",
+      "textPreview": "7",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 16,
+        "typeface": "TradeGothic",
+        "color": "#898989",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "7"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "7",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "7",
+              "fontSize": 16,
+              "typeface": "TradeGothic",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l0vuh0rm",
+      "id": "7",
+      "name": "Footer Placeholder 6",
+      "bbox": [
+        488,
+        667.33,
+        336.38,
+        38.33
+      ],
+      "text": "@SIH Idea submission- Template",
+      "textPreview": "@SIH Idea submission- Template",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 16,
+        "typeface": "TradeGothic",
+        "color": {
+          "type": "theme",
+          "value": "tx1",
+          "transform": {
+            "lighten": 0.25
+          }
+        },
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "@SIH Idea submission- Template"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "@SIH Idea submission- Template",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "@SIH Idea submission- Template",
+              "fontSize": 16,
+              "typeface": "TradeGothic",
+              "color": "#000000",
+              "textTransform": "none"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dcbud0ra",
+      "id": "3",
+      "name": "Round Diagonal Corner Rectangle 2",
+      "bbox": [
+        0,
+        188.03,
+        1280,
+        453.46
+      ],
+      "geometry": "round2DiagRect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": {
+        "type": "theme",
+        "value": "accent1",
+        "transform": {
+          "lighten": 0.8
+        }
+      },
+      "lineWidth": 4
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xcz2l03q",
+      "id": "12",
+      "name": "Google Shape;100;p3",
+      "bbox": [
+        38.62,
+        201.1,
+        1235.14,
+        427.33
+      ],
+      "geometry": "rect",
+      "text": "Kindly keep the maximum slides limit up to six (6). ( Including the title slide) \nTry to avoid paragraphs and post your idea in points /diagrams / Infographics /pictures \nKeep your explanation precise and easy to understand\nIdea should be unique and novel. \nYou can only use provided template for making the PPT without changing the idea details pointers (mentioned in previous slides).\nYou need to save the file in PDF and upload the same on portal. No PPT, Word Doc or any other format will be supported.\n\nNote - You can delete this slide (Important Pointers) when you upload the details of your idea on SIH portal.\n",
+      "textPreview": "Kindly keep the maximum slides limit up to six (6). ( Including the title slide)  | Try to avoid paragraphs and post your idea in points ...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 20,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1. Kindly keep the maximum slides limit up to six (6). ( Including the title slide)"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "2. Try to avoid paragraphs and post your idea in points /diagrams / Infographics /pictures"
+          },
+          {
+            "index": 4,
+            "text": ""
+          },
+          {
+            "index": 5,
+            "text": "3. Keep your explanation precise and easy to understand"
+          },
+          {
+            "index": 6,
+            "text": ""
+          },
+          {
+            "index": 7,
+            "text": "4. Idea should be unique and novel."
+          },
+          {
+            "index": 8,
+            "text": ""
+          },
+          {
+            "index": 9,
+            "text": "5. You can only use provided template for making the PPT without changing the idea details pointers"
+          },
+          {
+            "index": 10,
+            "text": "(mentioned in previous slides)."
+          },
+          {
+            "index": 11,
+            "text": ""
+          },
+          {
+            "index": 12,
+            "text": "6. You need to save the file in PDF and upload the same on portal. No PPT, Word Doc or any other"
+          },
+          {
+            "index": 13,
+            "text": "format will be supported."
+          },
+          {
+            "index": 14,
+            "text": ""
+          },
+          {
+            "index": 15,
+            "text": ""
+          },
+          {
+            "index": 16,
+            "text": ""
+          },
+          {
+            "index": 17,
+            "text": "Note - You can delete this slide (Important Pointers) when you upload the details of your idea on SIH"
+          },
+          {
+            "index": 18,
+            "text": "portal."
+          },
+          {
+            "index": 19,
+            "text": ""
+          },
+          {
+            "index": 20,
+            "text": ""
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Kindly keep the maximum slides limit up to six (6). ( Including the title slide) ",
+          "lineSpacingPercent": 90000,
+          "resolvedTextStyle": {
+            "alignment": "justify"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Kindly keep the maximum slides limit up to six ",
+              "typeface": "Arial",
+              "color": "dk1",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "(6). ",
+              "typeface": "Arial",
+              "color": "#C00000",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 3,
+              "text": "( Including the ",
+              "typeface": "Arial",
+              "color": "dk1",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 4,
+              "text": "title slide) ",
+              "typeface": "Arial",
+              "color": "dk1",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Try to avoid paragraphs and post your idea in points /diagrams / Infographics /pictures ",
+          "lineSpacingPercent": 90000,
+          "resolvedTextStyle": {
+            "alignment": "justify"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Try to avoid paragraphs and post your idea in points /diagrams / Infographics /pictures ",
+              "typeface": "Arial",
+              "color": "dk1",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "Keep your explanation precise and easy to understand",
+          "lineSpacingPercent": 90000,
+          "resolvedTextStyle": {
+            "alignment": "justify"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Keep your explanation precise and easy to understand",
+              "typeface": "Arial",
+              "color": "dk1",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "Idea should be unique and novel. ",
+          "lineSpacingPercent": 90000,
+          "resolvedTextStyle": {
+            "alignment": "justify"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Idea should be unique and novel. ",
+              "typeface": "Arial",
+              "color": "dk1",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "You can only use provided template for making the PPT without changing the idea details pointers (mentioned in previous slides).",
+          "lineSpacingPercent": 90000,
+          "resolvedTextStyle": {
+            "alignment": "justify"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "You can only use provided ",
+              "typeface": "Arial",
+              "color": "dk1",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 2,
+              "text": "template",
+              "typeface": "Arial",
+              "color": "dk1",
+              "bold": true
+            },
+            {
+              "index": 3,
+              "text": " for making the ",
+              "typeface": "Arial",
+              "color": "dk1",
+              "bold": true,
+              "textTransform": "none"
+            },
+            {
+              "index": 4,
+              "text": "PPT",
+              "typeface": "Arial",
+              "color": "dk1",
+              "bold": true
+            },
+            {
+              "index": 5,
+              "text": " without changing the idea details pointers (mentioned in previous slides).",
+              "typeface": "Arial",
+              "color": "dk1",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "You need to save the file in PDF and upload the same on portal. No PPT, Word Doc or any other format will be supported.",
+          "lineSpacingPercent": 90000,
+          "resolvedTextStyle": {
+            "alignment": "justify"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "You need to save the file in PDF and upload the same on portal. No PPT, Word Doc or any other format will be supported.",
+              "typeface": "Arial",
+              "color": "dk1",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 8,
+          "text": "Note - You can delete this slide (Important Pointers) when you upload the details of your idea on SIH portal.",
+          "lineSpacingPercent": 90000,
+          "resolvedTextStyle": {
+            "alignment": "justify"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Note - You can delete this slide (Important Pointers) when you upload the details of your idea on SIH portal.",
+              "typeface": "Arial",
+              "color": "#C00000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ydkbm5sv",
+      "id": "4",
+      "name": "TextBox 3",
+      "bbox": [
+        146.29,
+        11.24,
+        883,
+        67.86
+      ],
+      "geometry": "rect",
+      "text": "IMPORTANT INSTRUCTIONS",
+      "textPreview": "IMPORTANT INSTRUCTIONS",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "IMPORTANT INSTRUCTIONS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "IMPORTANT INSTRUCTIONS",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "IMPORTANT INSTRUCTIONS",
+              "fontSize": 48,
+              "typeface": "Times New Roman",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zedcfa9g",
+      "id": "5",
+      "name": "TextBox 4",
+      "bbox": [
+        63.24,
+        124.08,
+        1003.43,
+        35.87
+      ],
+      "geometry": "rect",
+      "text": "Please ensure below pointers are met while submitting the Idea PPT:",
+      "textPreview": "Please ensure below pointers are met while submitting the Idea PPT:",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Please ensure below pointers are met while submitting the Idea PPT:"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Please ensure below pointers are met while submitting the Idea PPT:",
+          "lineSpacingPercent": 90000,
+          "resolvedTextStyle": {
+            "alignment": "justify"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Please ensure below pointers are met while submitting the Idea PPT:",
+              "typeface": "Arial",
+              "color": "dk1",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/byxwryh8",
+      "id": "13",
+      "name": "Picture 12",
+      "bbox": [
+        1026.78,
+        0.16,
+        236.2,
+        111.53
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image2.png",
+        "contentType": "image/png",
+        "byteLength": 671097
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image2.png",
+        "contentType": "image/png",
+        "byteLength": 671097
+      }
+    }
+  ],
+  "composeRuns": []
+}

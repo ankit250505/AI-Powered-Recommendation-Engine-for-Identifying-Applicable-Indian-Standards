@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Indian Standards Recommendation Engine</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="workspace">
+        <header class="topbar">
+          <div class="brand-heading">
+            <span class="brand-mark" aria-hidden="true">IS</span>
+            <div>
+              <p class="eyebrow">Procurement Intelligence</p>
+              <h1>Indian Standards Finder</h1>
+              <p class="page-subtitle">Turn procurement language into evidence-backed standards.</p>
+            </div>
+          </div>
+          <div class="topbar-actions">
+            <a class="ghost-link" id="adminLink" href="/admin">Admin Review</a>
+            <span class="user-pill" id="currentUser"></span>
+            <button class="ghost-button compact" id="logoutButton" type="button">Sign Out</button>
+            <div class="status-pill" id="apiStatus">
+              <span class="status-dot"></span>
+              Checking API
+            </div>
+          </div>
+        </header>
+
+        <nav class="workspace-tabs" aria-label="Workspace views">
+          <button class="workspace-tab active" type="button" data-view="search">Search</button>
+          <button class="workspace-tab" type="button" data-view="catalog">Standards Library</button>
+          <button class="workspace-tab" id="historyTab" type="button" data-view="history" hidden>Recent Runs</button>
+        </nav>
+
+        <div class="workspace-view active" data-view-panel="search">
+        <section class="query-panel" aria-labelledby="queryTitle">
+          <div class="panel-heading">
+            <div>
+              <span class="section-kicker">01 / Describe the requirement</span>
+              <h2 id="queryTitle">Specification Input</h2>
+              <p>Add the product, material, grade, use case, and any technical constraints.</p>
+            </div>
+            <div class="query-settings">
+              <label class="limit-control">
+                Results
+                <select id="limitSelect">
+                  <option value="5">5</option>
+                  <option value="10" selected>10</option>
+                  <option value="15">15</option>
+                </select>
+              </label>
+              <label class="limit-control">
+                Search mode
+                <select id="modeSelect">
+                  <option value="hybrid" selected>Hybrid</option>
+                  <option value="embedding">AI Embedding</option>
+                  <option value="keyword">Keyword</option>
+                </select>
+              </label>
+            </div>
+          </div>
+
+          <div class="query-field">
+            <span class="query-field-label">PROCUREMENT SPECIFICATION</span>
+            <textarea
+              id="queryInput"
+              rows="7"
+              spellcheck="true"
+              placeholder="Example: Supply Fe 500D TMT reinforcement bars for RCC structural work..."
+            ></textarea>
+          </div>
+
+          <div class="sample-row" aria-label="Sample queries">
+            <button type="button" class="sample-chip" data-query="TMT bars for RCC work">TMT bars</button>
+            <button type="button" class="sample-chip" data-query="LED street lights for road project">LED street lights</button>
+            <button type="button" class="sample-chip" data-query="drinking water quality testing fluoride nitrate coliform">Drinking water testing</button>
+            <button type="button" class="sample-chip" data-query="fire hydrant hose reel system for hospital building">Fire hydrant system</button>
+          </div>
+
+          <div class="upload-panel">
+            <span class="upload-icon" aria-hidden="true">DOC</span>
+            <div class="upload-copy">
+              <h2>Document Upload</h2>
+              <p>Drop in a TXT, PDF, or DOCX specification for clause-aware matching.</p>
+            </div>
+            <div class="upload-controls">
+              <a class="ghost-link demo-link" href="/demo-document" download>Demo PDF</a>
+              <input id="documentInput" type="file" accept=".txt,.pdf,.docx" />
+              <button type="button" class="ghost-button" id="extractButton">Extract Text</button>
+              <button type="button" class="ghost-button" id="recommendFileButton">Extract & Recommend</button>
+            </div>
+            <p class="upload-status" id="uploadStatus">No document selected.</p>
+          </div>
+
+          <div class="actions">
+            <button type="button" class="primary-button" id="recommendButton">
+              <span class="button-icon" aria-hidden="true">⌕</span>
+              Recommend Standards
+            </button>
+            <button type="button" class="ghost-button" id="clearButton">Clear</button>
+          </div>
+        </section>
+
+        <section class="results-section" aria-labelledby="resultsTitle">
+          <div class="results-heading">
+            <div>
+              <span class="section-kicker">02 / Evaluate the matches</span>
+              <h2 id="resultsTitle">Recommendations</h2>
+              <p id="resultSummary">No query submitted yet.</p>
+            </div>
+            <div class="report-actions" id="reportActions" hidden>
+              <a class="ghost-link" id="downloadPdfReport" href="#" download>PDF Report</a>
+              <a class="ghost-link" id="downloadReport" href="#" download>CSV Data</a>
+            </div>
+          </div>
+          <div class="result-filters" id="resultFilters" hidden>
+            <label>
+              Filter results
+              <input id="resultFilter" type="search" placeholder="Title, code, or category" />
+            </label>
+            <label>
+              Confidence
+              <select id="confidenceFilter">
+                <option value="">All levels</option>
+                <option value="high">High</option>
+                <option value="moderate">Moderate</option>
+                <option value="low">Low</option>
+              </select>
+            </label>
+          </div>
+          <div class="empty-state" id="emptyState">
+            <strong>Ready</strong>
+            <span>Enter a procurement specification to see ranked Indian Standards.</span>
+          </div>
+          <div class="results-list" id="resultsList"></div>
+        </section>
+        </div>
+
+        <section class="workspace-view library-section" data-view-panel="catalog" hidden aria-labelledby="libraryTitle">
+          <div class="view-heading">
+            <div>
+              <span class="section-kicker">Browse the knowledge base</span>
+              <h2 id="libraryTitle">Standards Library</h2>
+              <p>Inspect catalogue coverage, verification status, and source references.</p>
+            </div>
+            <span class="record-count" id="catalogCount">Loading...</span>
+          </div>
+          <div class="library-controls">
+            <label>
+              Search standards
+              <input id="catalogQuery" type="search" placeholder="Code, title, or keyword" />
+            </label>
+            <label>
+              Category
+              <select id="catalogCategory"><option value="">All categories</option></select>
+            </label>
+          </div>
+          <div class="catalog-grid" id="catalogGrid"></div>
+          <div class="empty-state compact-empty" id="catalogEmpty" hidden>
+            <strong>No standards found</strong>
+            <span>Try a different code, title, keyword, or category.</span>
+          </div>
+          <div class="compare-bar" id="compareBar" hidden>
+            <span id="compareCount">0 standards selected</span>
+            <button class="primary-button" id="compareButton" type="button">Compare</button>
+          </div>
+        </section>
+
+        <section class="workspace-view history-section" data-view-panel="history" hidden aria-labelledby="historyTitle">
+          <div class="view-heading">
+            <div>
+              <span class="section-kicker">Return to earlier analysis</span>
+              <h2 id="historyTitle">Recent Recommendation Runs</h2>
+              <p>Open a saved run with the exact ranked results originally returned.</p>
+            </div>
+            <button class="ghost-button compact" id="refreshHistory" type="button">Refresh</button>
+          </div>
+          <div class="history-list" id="historyList"></div>
+          <div class="empty-state compact-empty" id="historyEmpty" hidden>
+            <strong>No saved runs</strong>
+            <span>Completed searches and document analyses will appear here.</span>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <dialog id="comparisonDialog" class="comparison-dialog">
+      <div class="comparison-content">
+        <div class="dialog-heading">
+          <div>
+            <p class="eyebrow">Standards Library</p>
+            <h2>Compare Standards</h2>
+          </div>
+          <button class="dialog-close" id="closeComparison" type="button" aria-label="Close">×</button>
+        </div>
+        <div class="table-wrap"><table id="comparisonTable"></table></div>
+      </div>
+    </dialog>
+
+    <template id="resultTemplate">
+      <article class="result-card">
+        <div class="result-main">
+          <div class="result-title-row">
+            <span class="rank"></span>
+            <div>
+              <h3></h3>
+              <p class="standard-code"></p>
+            </div>
+          </div>
+          <p class="reason"></p>
+          <div class="evidence-block" hidden>
+            <strong>Matching document clauses</strong>
+            <div class="evidence-list"></div>
+          </div>
+          <div class="tag-row matched-terms"></div>
+          <div class="feedback-row">
+            <button type="button" class="feedback-button" data-rating="useful">Useful</button>
+            <button type="button" class="feedback-button" data-rating="not_useful">Not useful</button>
+            <span class="feedback-status"></span>
+          </div>
+          <div class="review-row" hidden>
+            <label>
+              Reviewer note
+              <input class="review-note" type="text" maxlength="1000" placeholder="Optional decision note" />
+            </label>
+            <div class="review-actions">
+              <button type="button" class="review-button accept" data-decision="accepted">Accept</button>
+              <button type="button" class="review-button reject" data-decision="rejected">Reject</button>
+              <span class="review-status"></span>
+            </div>
+          </div>
+        </div>
+        <aside class="result-meta">
+          <div class="score-box">
+            <span class="score-label">Score</span>
+            <strong class="score"></strong>
+          </div>
+          <dl>
+            <div>
+              <dt>Confidence</dt>
+              <dd class="confidence" title="Heuristic ranking confidence, not a legal determination."></dd>
+            </div>
+            <div>
+              <dt>Category</dt>
+              <dd class="category"></dd>
+            </div>
+            <div>
+              <dt>Status</dt>
+              <dd class="verify-status"></dd>
+            </div>
+            <div>
+              <dt>Applicability note</dt>
+              <dd class="mandatory-hint"></dd>
+            </div>
+          </dl>
+          <a class="source-link" target="_blank" rel="noreferrer">Source reference</a>
+        </aside>
+      </article>
+    </template>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>

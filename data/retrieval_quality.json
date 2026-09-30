@@ -1,0 +1,8 @@
+{
+  "evaluated_on": "Controlled synthetic held-out test split",
+  "query_count": 375,
+  "mode": "hybrid",
+  "top_1_accuracy": 0.915,
+  "top_5_accuracy": 0.973,
+  "mean_reciprocal_rank": 0.943
+}
